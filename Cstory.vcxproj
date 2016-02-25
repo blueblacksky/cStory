@@ -54,12 +54,16 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <BrowseInformation>true</BrowseInformation>
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <SubSystem>Console</SubSystem>
       <AdditionalDependencies>SDL2_image.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
+    <Bscmake>
+      <PreserveSbr>true</PreserveSbr>
+    </Bscmake>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>
@@ -86,7 +90,103 @@
     <ClCompile Include="sprite.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\8.1\Include\shared\winapifamily.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\VS_Lib\SDL2_image-2.0.0\include\SDL2_image.h" />
+    <ClInclude Include="..\packages\sdl2.2.0.3\build\native\include\begin_code.h" />
+    <ClInclude Include="..\packages\sdl2.2.0.3\build\native\include\close_code.h" />
+    <ClInclude Include="..\packages\sdl2.2.0.3\build\native\include\SDL.h" />
+    <ClInclude Include="..\packages\sdl2.2.0.3\build\native\include\SDL_assert.h" />
+    <ClInclude Include="..\packages\sdl2.2.0.3\build\native\include\SDL_atomic.h" />
+    <ClInclude Include="..\packages\sdl2.2.0.3\build\native\include\SDL_audio.h" />
+    <ClInclude Include="..\packages\sdl2.2.0.3\build\native\include\SDL_blendmode.h" />
+    <ClInclude Include="..\packages\sdl2.2.0.3\build\native\include\SDL_clipboard.h" />
+    <ClInclude Include="..\packages\sdl2.2.0.3\build\native\include\SDL_config.h" />
+    <ClInclude Include="..\packages\sdl2.2.0.3\build\native\include\SDL_cpuinfo.h" />
+    <ClInclude Include="..\packages\sdl2.2.0.3\build\native\include\SDL_endian.h" />
+    <ClInclude Include="..\packages\sdl2.2.0.3\build\native\include\SDL_error.h" />
+    <ClInclude Include="..\packages\sdl2.2.0.3\build\native\include\SDL_events.h" />
+    <ClInclude Include="..\packages\sdl2.2.0.3\build\native\include\SDL_filesystem.h" />
+    <ClInclude Include="..\packages\sdl2.2.0.3\build\native\include\SDL_gamecontroller.h" />
+    <ClInclude Include="..\packages\sdl2.2.0.3\build\native\include\SDL_gesture.h" />
+    <ClInclude Include="..\packages\sdl2.2.0.3\build\native\include\SDL_haptic.h" />
+    <ClInclude Include="..\packages\sdl2.2.0.3\build\native\include\SDL_hints.h" />
+    <ClInclude Include="..\packages\sdl2.2.0.3\build\native\include\SDL_joystick.h" />
+    <ClInclude Include="..\packages\sdl2.2.0.3\build\native\include\SDL_keyboard.h" />
+    <ClInclude Include="..\packages\sdl2.2.0.3\build\native\include\SDL_keycode.h" />
+    <ClInclude Include="..\packages\sdl2.2.0.3\build\native\include\SDL_loadso.h" />
+    <ClInclude Include="..\packages\sdl2.2.0.3\build\native\include\SDL_log.h" />
+    <ClInclude Include="..\packages\sdl2.2.0.3\build\native\include\SDL_main.h" />
+    <ClInclude Include="..\packages\sdl2.2.0.3\build\native\include\SDL_messagebox.h" />
+    <ClInclude Include="..\packages\sdl2.2.0.3\build\native\include\SDL_mouse.h" />
+    <ClInclude Include="..\packages\sdl2.2.0.3\build\native\include\SDL_mutex.h" />
+    <ClInclude Include="..\packages\sdl2.2.0.3\build\native\include\SDL_pixels.h" />
+    <ClInclude Include="..\packages\sdl2.2.0.3\build\native\include\SDL_platform.h" />
+    <ClInclude Include="..\packages\sdl2.2.0.3\build\native\include\SDL_power.h" />
+    <ClInclude Include="..\packages\sdl2.2.0.3\build\native\include\SDL_quit.h" />
+    <ClInclude Include="..\packages\sdl2.2.0.3\build\native\include\SDL_rect.h" />
+    <ClInclude Include="..\packages\sdl2.2.0.3\build\native\include\SDL_render.h" />
+    <ClInclude Include="..\packages\sdl2.2.0.3\build\native\include\SDL_rwops.h" />
+    <ClInclude Include="..\packages\sdl2.2.0.3\build\native\include\SDL_scancode.h" />
+    <ClInclude Include="..\packages\sdl2.2.0.3\build\native\include\SDL_stdinc.h" />
+    <ClInclude Include="..\packages\sdl2.2.0.3\build\native\include\SDL_surface.h" />
+    <ClInclude Include="..\packages\sdl2.2.0.3\build\native\include\SDL_system.h" />
+    <ClInclude Include="..\packages\sdl2.2.0.3\build\native\include\SDL_thread.h" />
+    <ClInclude Include="..\packages\sdl2.2.0.3\build\native\include\SDL_timer.h" />
+    <ClInclude Include="..\packages\sdl2.2.0.3\build\native\include\SDL_touch.h" />
+    <ClInclude Include="..\packages\sdl2.2.0.3\build\native\include\SDL_version.h" />
+    <ClInclude Include="..\packages\sdl2.2.0.3\build\native\include\SDL_video.h" />
     <ClInclude Include="animatedSprite.h" />
+    <ClInclude Include="d:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ammintrin.h" />
+    <ClInclude Include="d:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\armintr.h" />
+    <ClInclude Include="d:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\CodeAnalysis\sourceannotations.h" />
+    <ClInclude Include="d:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ConcurrencySal.h" />
+    <ClInclude Include="d:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdbg.h" />
+    <ClInclude Include="d:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h" />
+    <ClInclude Include="d:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtwrn.h" />
+    <ClInclude Include="d:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ctype.h" />
+    <ClInclude Include="d:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\eh.h" />
+    <ClInclude Include="d:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\emmintrin.h" />
+    <ClInclude Include="d:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\errno.h" />
+    <ClInclude Include="d:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\float.h" />
+    <ClInclude Include="d:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\immintrin.h" />
+    <ClInclude Include="d:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\intrin.h" />
+    <ClInclude Include="d:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\inttypes.h" />
+    <ClInclude Include="d:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\limits.h" />
+    <ClInclude Include="d:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\locale.h" />
+    <ClInclude Include="d:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\malloc.h" />
+    <ClInclude Include="d:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h" />
+    <ClInclude Include="d:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\memory.h" />
+    <ClInclude Include="d:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\mm3dnow.h" />
+    <ClInclude Include="d:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\mmintrin.h" />
+    <ClInclude Include="d:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\nmmintrin.h" />
+    <ClInclude Include="d:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\pmmintrin.h" />
+    <ClInclude Include="d:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\process.h" />
+    <ClInclude Include="d:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\sal.h" />
+    <ClInclude Include="d:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\setjmp.h" />
+    <ClInclude Include="d:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\setjmpex.h" />
+    <ClInclude Include="d:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\share.h" />
+    <ClInclude Include="d:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\signal.h" />
+    <ClInclude Include="d:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\smmintrin.h" />
+    <ClInclude Include="d:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdarg.h" />
+    <ClInclude Include="d:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stddef.h" />
+    <ClInclude Include="d:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdint.h" />
+    <ClInclude Include="d:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h" />
+    <ClInclude Include="d:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdlib.h" />
+    <ClInclude Include="d:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h" />
+    <ClInclude Include="d:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\sys\types.h" />
+    <ClInclude Include="d:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\tmmintrin.h" />
+    <ClInclude Include="d:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\use_ansi.h" />
+    <ClInclude Include="d:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\vadefs.h" />
+    <ClInclude Include="d:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\wchar.h" />
+    <ClInclude Include="d:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\wmmintrin.h" />
+    <ClInclude Include="d:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xatomic.h" />
+    <ClInclude Include="d:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xatomic0.h" />
+    <ClInclude Include="d:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xkeycheck.h" />
+    <ClInclude Include="d:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xlocinfo.h" />
+    <ClInclude Include="d:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xmmintrin.h" />
+    <ClInclude Include="d:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xtgmath.h" />
+    <ClInclude Include="d:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ymath.h" />
+    <ClInclude Include="d:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\yvals.h" />
     <ClInclude Include="game.h" />
     <ClInclude Include="globals.h" />
     <ClInclude Include="graphics.h" />
@@ -94,6 +194,51 @@
     <ClInclude Include="sprite.h" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="d:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\algorithm" />
+    <None Include="d:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\cerrno" />
+    <None Include="d:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\cfloat" />
+    <None Include="d:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\climits" />
+    <None Include="d:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\cmath" />
+    <None Include="d:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\cstddef" />
+    <None Include="d:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\cstdio" />
+    <None Include="d:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\cstdlib" />
+    <None Include="d:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\cstring" />
+    <None Include="d:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\cwchar" />
+    <None Include="d:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\exception" />
+    <None Include="d:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\initializer_list" />
+    <None Include="d:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ios" />
+    <None Include="d:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\iosfwd" />
+    <None Include="d:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\istream" />
+    <None Include="d:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\iterator" />
+    <None Include="d:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\limits" />
+    <None Include="d:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\map" />
+    <None Include="d:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\new" />
+    <None Include="d:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ostream" />
+    <None Include="d:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdexcept" />
+    <None Include="d:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\streambuf" />
+    <None Include="d:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string" />
+    <None Include="d:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\swprintf.inl" />
+    <None Include="d:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\system_error" />
+    <None Include="d:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\tuple" />
+    <None Include="d:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\typeinfo" />
+    <None Include="d:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\type_traits" />
+    <None Include="d:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\utility" />
+    <None Include="d:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\vector" />
+    <None Include="d:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\wtime.inl" />
+    <None Include="d:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xdebug" />
+    <None Include="d:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xfacet" />
+    <None Include="d:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xiosbase" />
+    <None Include="d:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xlocale" />
+    <None Include="d:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xlocinfo" />
+    <None Include="d:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xlocnum" />
+    <None Include="d:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xmemory" />
+    <None Include="d:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xmemory0" />
+    <None Include="d:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xrefwrap" />
+    <None Include="d:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xstddef" />
+    <None Include="d:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xstring" />
+    <None Include="d:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xtr1common" />
+    <None Include="d:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xtree" />
+    <None Include="d:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xutility" />
     <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

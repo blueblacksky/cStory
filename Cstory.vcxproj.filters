@@ -11,6 +11,9 @@
     <Filter Include="source files\src">
       <UniqueIdentifier>{b03fe65d-6295-4696-b62a-3744a64ac578}</UniqueIdentifier>
     </Filter>
+    <Filter Include="dependencies">
+      <UniqueIdentifier>{8501e056-e6e5-4972-9e20-4a77d709ae12}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="graphics.cpp">
@@ -51,8 +54,431 @@
     <ClInclude Include="animatedSprite.h">
       <Filter>source files\headers</Filter>
     </ClInclude>
+    <ClInclude Include="d:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ammintrin.h">
+      <Filter>dependencies</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\armintr.h">
+      <Filter>dependencies</Filter>
+    </ClInclude>
+    <ClInclude Include="..\packages\sdl2.2.0.3\build\native\include\begin_code.h">
+      <Filter>dependencies</Filter>
+    </ClInclude>
+    <ClInclude Include="..\packages\sdl2.2.0.3\build\native\include\close_code.h">
+      <Filter>dependencies</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ConcurrencySal.h">
+      <Filter>dependencies</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdbg.h">
+      <Filter>dependencies</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h">
+      <Filter>dependencies</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtwrn.h">
+      <Filter>dependencies</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ctype.h">
+      <Filter>dependencies</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\eh.h">
+      <Filter>dependencies</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\emmintrin.h">
+      <Filter>dependencies</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\errno.h">
+      <Filter>dependencies</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\float.h">
+      <Filter>dependencies</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\immintrin.h">
+      <Filter>dependencies</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\intrin.h">
+      <Filter>dependencies</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\inttypes.h">
+      <Filter>dependencies</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\limits.h">
+      <Filter>dependencies</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\locale.h">
+      <Filter>dependencies</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\malloc.h">
+      <Filter>dependencies</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h">
+      <Filter>dependencies</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\memory.h">
+      <Filter>dependencies</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\mm3dnow.h">
+      <Filter>dependencies</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\mmintrin.h">
+      <Filter>dependencies</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\nmmintrin.h">
+      <Filter>dependencies</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\pmmintrin.h">
+      <Filter>dependencies</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\process.h">
+      <Filter>dependencies</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\sal.h">
+      <Filter>dependencies</Filter>
+    </ClInclude>
+    <ClInclude Include="..\packages\sdl2.2.0.3\build\native\include\SDL.h">
+      <Filter>dependencies</Filter>
+    </ClInclude>
+    <ClInclude Include="..\packages\sdl2.2.0.3\build\native\include\SDL_assert.h">
+      <Filter>dependencies</Filter>
+    </ClInclude>
+    <ClInclude Include="..\packages\sdl2.2.0.3\build\native\include\SDL_atomic.h">
+      <Filter>dependencies</Filter>
+    </ClInclude>
+    <ClInclude Include="..\packages\sdl2.2.0.3\build\native\include\SDL_audio.h">
+      <Filter>dependencies</Filter>
+    </ClInclude>
+    <ClInclude Include="..\packages\sdl2.2.0.3\build\native\include\SDL_blendmode.h">
+      <Filter>dependencies</Filter>
+    </ClInclude>
+    <ClInclude Include="..\packages\sdl2.2.0.3\build\native\include\SDL_clipboard.h">
+      <Filter>dependencies</Filter>
+    </ClInclude>
+    <ClInclude Include="..\packages\sdl2.2.0.3\build\native\include\SDL_config.h">
+      <Filter>dependencies</Filter>
+    </ClInclude>
+    <ClInclude Include="..\packages\sdl2.2.0.3\build\native\include\SDL_cpuinfo.h">
+      <Filter>dependencies</Filter>
+    </ClInclude>
+    <ClInclude Include="..\packages\sdl2.2.0.3\build\native\include\SDL_endian.h">
+      <Filter>dependencies</Filter>
+    </ClInclude>
+    <ClInclude Include="..\packages\sdl2.2.0.3\build\native\include\SDL_error.h">
+      <Filter>dependencies</Filter>
+    </ClInclude>
+    <ClInclude Include="..\packages\sdl2.2.0.3\build\native\include\SDL_events.h">
+      <Filter>dependencies</Filter>
+    </ClInclude>
+    <ClInclude Include="..\packages\sdl2.2.0.3\build\native\include\SDL_filesystem.h">
+      <Filter>dependencies</Filter>
+    </ClInclude>
+    <ClInclude Include="..\packages\sdl2.2.0.3\build\native\include\SDL_gamecontroller.h">
+      <Filter>dependencies</Filter>
+    </ClInclude>
+    <ClInclude Include="..\packages\sdl2.2.0.3\build\native\include\SDL_gesture.h">
+      <Filter>dependencies</Filter>
+    </ClInclude>
+    <ClInclude Include="..\packages\sdl2.2.0.3\build\native\include\SDL_haptic.h">
+      <Filter>dependencies</Filter>
+    </ClInclude>
+    <ClInclude Include="..\packages\sdl2.2.0.3\build\native\include\SDL_hints.h">
+      <Filter>dependencies</Filter>
+    </ClInclude>
+    <ClInclude Include="..\packages\sdl2.2.0.3\build\native\include\SDL_joystick.h">
+      <Filter>dependencies</Filter>
+    </ClInclude>
+    <ClInclude Include="..\packages\sdl2.2.0.3\build\native\include\SDL_keyboard.h">
+      <Filter>dependencies</Filter>
+    </ClInclude>
+    <ClInclude Include="..\packages\sdl2.2.0.3\build\native\include\SDL_keycode.h">
+      <Filter>dependencies</Filter>
+    </ClInclude>
+    <ClInclude Include="..\packages\sdl2.2.0.3\build\native\include\SDL_loadso.h">
+      <Filter>dependencies</Filter>
+    </ClInclude>
+    <ClInclude Include="..\packages\sdl2.2.0.3\build\native\include\SDL_log.h">
+      <Filter>dependencies</Filter>
+    </ClInclude>
+    <ClInclude Include="..\packages\sdl2.2.0.3\build\native\include\SDL_main.h">
+      <Filter>dependencies</Filter>
+    </ClInclude>
+    <ClInclude Include="..\packages\sdl2.2.0.3\build\native\include\SDL_messagebox.h">
+      <Filter>dependencies</Filter>
+    </ClInclude>
+    <ClInclude Include="..\packages\sdl2.2.0.3\build\native\include\SDL_mouse.h">
+      <Filter>dependencies</Filter>
+    </ClInclude>
+    <ClInclude Include="..\packages\sdl2.2.0.3\build\native\include\SDL_mutex.h">
+      <Filter>dependencies</Filter>
+    </ClInclude>
+    <ClInclude Include="..\packages\sdl2.2.0.3\build\native\include\SDL_pixels.h">
+      <Filter>dependencies</Filter>
+    </ClInclude>
+    <ClInclude Include="..\packages\sdl2.2.0.3\build\native\include\SDL_platform.h">
+      <Filter>dependencies</Filter>
+    </ClInclude>
+    <ClInclude Include="..\packages\sdl2.2.0.3\build\native\include\SDL_power.h">
+      <Filter>dependencies</Filter>
+    </ClInclude>
+    <ClInclude Include="..\packages\sdl2.2.0.3\build\native\include\SDL_quit.h">
+      <Filter>dependencies</Filter>
+    </ClInclude>
+    <ClInclude Include="..\packages\sdl2.2.0.3\build\native\include\SDL_rect.h">
+      <Filter>dependencies</Filter>
+    </ClInclude>
+    <ClInclude Include="..\packages\sdl2.2.0.3\build\native\include\SDL_render.h">
+      <Filter>dependencies</Filter>
+    </ClInclude>
+    <ClInclude Include="..\packages\sdl2.2.0.3\build\native\include\SDL_rwops.h">
+      <Filter>dependencies</Filter>
+    </ClInclude>
+    <ClInclude Include="..\packages\sdl2.2.0.3\build\native\include\SDL_scancode.h">
+      <Filter>dependencies</Filter>
+    </ClInclude>
+    <ClInclude Include="..\packages\sdl2.2.0.3\build\native\include\SDL_stdinc.h">
+      <Filter>dependencies</Filter>
+    </ClInclude>
+    <ClInclude Include="..\packages\sdl2.2.0.3\build\native\include\SDL_surface.h">
+      <Filter>dependencies</Filter>
+    </ClInclude>
+    <ClInclude Include="..\packages\sdl2.2.0.3\build\native\include\SDL_system.h">
+      <Filter>dependencies</Filter>
+    </ClInclude>
+    <ClInclude Include="..\packages\sdl2.2.0.3\build\native\include\SDL_thread.h">
+      <Filter>dependencies</Filter>
+    </ClInclude>
+    <ClInclude Include="..\packages\sdl2.2.0.3\build\native\include\SDL_timer.h">
+      <Filter>dependencies</Filter>
+    </ClInclude>
+    <ClInclude Include="..\packages\sdl2.2.0.3\build\native\include\SDL_touch.h">
+      <Filter>dependencies</Filter>
+    </ClInclude>
+    <ClInclude Include="..\packages\sdl2.2.0.3\build\native\include\SDL_version.h">
+      <Filter>dependencies</Filter>
+    </ClInclude>
+    <ClInclude Include="..\packages\sdl2.2.0.3\build\native\include\SDL_video.h">
+      <Filter>dependencies</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\VS_Lib\SDL2_image-2.0.0\include\SDL2_image.h">
+      <Filter>dependencies</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\setjmp.h">
+      <Filter>dependencies</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\setjmpex.h">
+      <Filter>dependencies</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\share.h">
+      <Filter>dependencies</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\signal.h">
+      <Filter>dependencies</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\smmintrin.h">
+      <Filter>dependencies</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\CodeAnalysis\sourceannotations.h">
+      <Filter>dependencies</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdarg.h">
+      <Filter>dependencies</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stddef.h">
+      <Filter>dependencies</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdint.h">
+      <Filter>dependencies</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h">
+      <Filter>dependencies</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdlib.h">
+      <Filter>dependencies</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h">
+      <Filter>dependencies</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\tmmintrin.h">
+      <Filter>dependencies</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\sys\types.h">
+      <Filter>dependencies</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\use_ansi.h">
+      <Filter>dependencies</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\vadefs.h">
+      <Filter>dependencies</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\wchar.h">
+      <Filter>dependencies</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\8.1\Include\shared\winapifamily.h">
+      <Filter>dependencies</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\wmmintrin.h">
+      <Filter>dependencies</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xatomic.h">
+      <Filter>dependencies</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xatomic0.h">
+      <Filter>dependencies</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xkeycheck.h">
+      <Filter>dependencies</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xlocinfo.h">
+      <Filter>dependencies</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xmmintrin.h">
+      <Filter>dependencies</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xtgmath.h">
+      <Filter>dependencies</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ymath.h">
+      <Filter>dependencies</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\yvals.h">
+      <Filter>dependencies</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+    <None Include="d:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\algorithm">
+      <Filter>dependencies</Filter>
+    </None>
+    <None Include="d:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\cerrno">
+      <Filter>dependencies</Filter>
+    </None>
+    <None Include="d:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\cfloat">
+      <Filter>dependencies</Filter>
+    </None>
+    <None Include="d:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\climits">
+      <Filter>dependencies</Filter>
+    </None>
+    <None Include="d:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\cmath">
+      <Filter>dependencies</Filter>
+    </None>
+    <None Include="d:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\cstddef">
+      <Filter>dependencies</Filter>
+    </None>
+    <None Include="d:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\cstdio">
+      <Filter>dependencies</Filter>
+    </None>
+    <None Include="d:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\cstdlib">
+      <Filter>dependencies</Filter>
+    </None>
+    <None Include="d:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\cstring">
+      <Filter>dependencies</Filter>
+    </None>
+    <None Include="d:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\cwchar">
+      <Filter>dependencies</Filter>
+    </None>
+    <None Include="d:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\exception">
+      <Filter>dependencies</Filter>
+    </None>
+    <None Include="d:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\initializer_list">
+      <Filter>dependencies</Filter>
+    </None>
+    <None Include="d:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ios">
+      <Filter>dependencies</Filter>
+    </None>
+    <None Include="d:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\iosfwd">
+      <Filter>dependencies</Filter>
+    </None>
+    <None Include="d:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\istream">
+      <Filter>dependencies</Filter>
+    </None>
+    <None Include="d:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\iterator">
+      <Filter>dependencies</Filter>
+    </None>
+    <None Include="d:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\limits">
+      <Filter>dependencies</Filter>
+    </None>
+    <None Include="d:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\map">
+      <Filter>dependencies</Filter>
+    </None>
+    <None Include="d:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\new">
+      <Filter>dependencies</Filter>
+    </None>
+    <None Include="d:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ostream">
+      <Filter>dependencies</Filter>
+    </None>
+    <None Include="d:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdexcept">
+      <Filter>dependencies</Filter>
+    </None>
+    <None Include="d:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\streambuf">
+      <Filter>dependencies</Filter>
+    </None>
+    <None Include="d:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string">
+      <Filter>dependencies</Filter>
+    </None>
+    <None Include="d:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\swprintf.inl">
+      <Filter>dependencies</Filter>
+    </None>
+    <None Include="d:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\system_error">
+      <Filter>dependencies</Filter>
+    </None>
+    <None Include="d:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\tuple">
+      <Filter>dependencies</Filter>
+    </None>
+    <None Include="d:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\type_traits">
+      <Filter>dependencies</Filter>
+    </None>
+    <None Include="d:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\typeinfo">
+      <Filter>dependencies</Filter>
+    </None>
+    <None Include="d:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\utility">
+      <Filter>dependencies</Filter>
+    </None>
+    <None Include="d:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\vector">
+      <Filter>dependencies</Filter>
+    </None>
+    <None Include="d:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\wtime.inl">
+      <Filter>dependencies</Filter>
+    </None>
+    <None Include="d:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xdebug">
+      <Filter>dependencies</Filter>
+    </None>
+    <None Include="d:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xfacet">
+      <Filter>dependencies</Filter>
+    </None>
+    <None Include="d:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xiosbase">
+      <Filter>dependencies</Filter>
+    </None>
+    <None Include="d:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xlocale">
+      <Filter>dependencies</Filter>
+    </None>
+    <None Include="d:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xlocinfo">
+      <Filter>dependencies</Filter>
+    </None>
+    <None Include="d:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xlocnum">
+      <Filter>dependencies</Filter>
+    </None>
+    <None Include="d:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xmemory">
+      <Filter>dependencies</Filter>
+    </None>
+    <None Include="d:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xmemory0">
+      <Filter>dependencies</Filter>
+    </None>
+    <None Include="d:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xrefwrap">
+      <Filter>dependencies</Filter>
+    </None>
+    <None Include="d:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xstddef">
+      <Filter>dependencies</Filter>
+    </None>
+    <None Include="d:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xstring">
+      <Filter>dependencies</Filter>
+    </None>
+    <None Include="d:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xtr1common">
+      <Filter>dependencies</Filter>
+    </None>
+    <None Include="d:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xtree">
+      <Filter>dependencies</Filter>
+    </None>
+    <None Include="d:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xutility">
+      <Filter>dependencies</Filter>
+    </None>
   </ItemGroup>
 </Project>

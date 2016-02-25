@@ -29,7 +29,7 @@ void Game::gameLoop(){
 	Input input;
 	SDL_Event event;
 
-	this->_player = AnimatedSprite(graphics, "resources\\sprites\\alucard_animations.png", 0, 0, 22, 50, 100, 100, 125);
+	this->_player = AnimatedSprite(graphics, "\\resources\\sprites\\alucard_animations.png", 0, 0, 22, 50, 100, 100, 125);
 	this->_player.setupAnimations();
 	this->_player.playAnimation("Idle");
 

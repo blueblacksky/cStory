@@ -1,0 +1,31 @@
+﻿Build started 11/9/2015 9:14:14 PM.
+     1>Project "C:\Users\VampireLeMatt\Documents\SpiderOakHive\WorkSpaceVS\Cstory\Cstory\Cstory.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IC:\Users\VampireLeMatt\Documents\SpiderOakHive\WorkSpaceVS\Cstory\packages\sdl2.2.0.3\build\native\../..//build/native/include/ /ZI /nologo /W3 /WX- /Od /Oy- /D HAS_SDL2 /D _MBCS /Gm /EHsc /RTC1 /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt animatedSprite.cpp game.cpp graphics.cpp main.cpp sprite.cpp
+         animatedSprite.cpp
+     1>c:\users\vampirelematt\documents\spideroakhive\workspacevs\cstory\cstory\animatedsprite.cpp(61): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\vampirelematt\documents\spideroakhive\workspacevs\cstory\cstory\animatedsprite.cpp(78): warning C4244: '=' : conversion from 'const float' to 'int', possible loss of data
+     1>c:\users\vampirelematt\documents\spideroakhive\workspacevs\cstory\cstory\animatedsprite.cpp(79): warning C4244: '=' : conversion from 'const float' to 'int', possible loss of data
+         Generating Code...
+         Compiling...
+         sprite.cpp
+     1>c:\users\vampirelematt\documents\spideroakhive\workspacevs\cstory\cstory\sprite.cpp(32): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+         main.cpp
+         graphics.cpp
+         game.cpp
+     1>c:\users\vampirelematt\documents\spideroakhive\workspacevs\cstory\cstory\game.cpp(65): warning C4244: 'argument' : conversion from 'const int' to 'float', possible loss of data
+     1>c:\users\vampirelematt\documents\spideroakhive\workspacevs\cstory\cstory\game.cpp(82): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+         Generating Code...
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\VampireLeMatt\Documents\SpiderOakHive\WorkSpaceVS\Cstory\Debug\Cstory.exe" /INCREMENTAL /NOLOGO C:\Users\VampireLeMatt\Documents\SpiderOakHive\WorkSpaceVS\Cstory\packages\sdl2.2.0.3\build\native\../..//build/native/lib/Win32\dynamic\SDL2main.lib C:\Users\VampireLeMatt\Documents\SpiderOakHive\WorkSpaceVS\Cstory\packages\sdl2.2.0.3\build\native\../..//build/native/lib/Win32\dynamic\SDL2.lib SDL2_image.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\VampireLeMatt\Documents\SpiderOakHive\WorkSpaceVS\Cstory\Debug\Cstory.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\VampireLeMatt\Documents\SpiderOakHive\WorkSpaceVS\Cstory\Debug\Cstory.lib" /MACHINE:X86 Debug\animatedSprite.obj
+         Debug\game.obj
+         Debug\graphics.obj
+         Debug\input.obj
+         Debug\main.obj
+         Debug\sprite.obj
+         Cstory.vcxproj -> C:\Users\VampireLeMatt\Documents\SpiderOakHive\WorkSpaceVS\Cstory\Debug\Cstory.exe
+     1>Done Building Project "C:\Users\VampireLeMatt\Documents\SpiderOakHive\WorkSpaceVS\Cstory\Cstory\Cstory.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.72
